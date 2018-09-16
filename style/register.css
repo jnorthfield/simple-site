@@ -1,0 +1,78 @@
+/* Login */ 
+
+#list2 {
+	padding-top: 40px;
+}
+
+#guest {
+	vertical-align: top;
+}
+
+.formHeader {
+	font-family: 'Amatic SC', cursive;
+	font-size: 1.3em;
+  	text-align: center;
+  	letter-spacing: 4px;
+  	display: inline-block;
+  	width: 100%;
+  	margin: 20px auto;
+}
+
+button {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	display: block !important;
+	width: 30% !important;
+	clear: both;
+	margin: 30px auto !important;
+	font-family: 'Josefin Slab', serif !important;
+  	letter-spacing: .5px;
+  	background-color: white;
+  	border-radius: 5px;	
+  	padding: 5px;
+  	border: 1px solid gray;
+}
+
+input[type=text], input[type=password] {
+	width: 35%;
+	margin: 10px;
+	border-radius: 3px; 
+}
+
+label {
+	float: left;
+	clear: both;
+	width: 35%;
+	margin: 10px 20px;
+	font-family: 'Josefin Slab', serif !important;
+  	letter-spacing: .5px;
+}
+
+#userForm {
+	margin: auto;
+}
+
+#errorMessage {
+	padding-top: 40px;
+	font-family: 'Josefin Slab', serif;
+	height: 40px;
+	color: #d30024;
+}
+
+#mainList {
+	visibility: hidden;
+}
+
+/* To-do */
+
+#addTask {
+	width: 80%;
+	height: 40px;
+	border: none;
+	outline: none;
+	font-family: 'Josefin Slab', serif;
+	font-size: 1.5em;
+	text-align: center;
+	background: rgba(241, 241, 241, 0.8);
+}
